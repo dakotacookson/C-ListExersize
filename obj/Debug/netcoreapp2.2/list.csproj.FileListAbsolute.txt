@@ -1,0 +1,11 @@
+G:\workspace\list\bin\Debug\netcoreapp2.2\list.deps.json
+G:\workspace\list\bin\Debug\netcoreapp2.2\list.runtimeconfig.json
+G:\workspace\list\bin\Debug\netcoreapp2.2\list.runtimeconfig.dev.json
+G:\workspace\list\bin\Debug\netcoreapp2.2\list.dll
+G:\workspace\list\bin\Debug\netcoreapp2.2\list.pdb
+G:\workspace\list\obj\Debug\netcoreapp2.2\list.csprojAssemblyReference.cache
+G:\workspace\list\obj\Debug\netcoreapp2.2\list.csproj.CoreCompileInputs.cache
+G:\workspace\list\obj\Debug\netcoreapp2.2\list.AssemblyInfoInputs.cache
+G:\workspace\list\obj\Debug\netcoreapp2.2\list.AssemblyInfo.cs
+G:\workspace\list\obj\Debug\netcoreapp2.2\list.dll
+G:\workspace\list\obj\Debug\netcoreapp2.2\list.pdb
