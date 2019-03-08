@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 namespace NSSOrientation {
     class Program {
-        public static void Main ()
+     static void planetPrinter(List<string> stringList){
+            foreach(string item in stringList){
+                Console.WriteLine(item);
+            }
+        }        public static void Main ()
 
         {
 
@@ -31,6 +35,15 @@ namespace NSSOrientation {
                 planetList.RemoveAt (8);
                 planetList.ForEach (planet => Console.WriteLine (planet)); { }
             }
+
+
+
+
+
+
+
+
+
             Random random = new Random ();
             List<int> numbers = new List<int> {
                 random.Next (10),
@@ -38,17 +51,19 @@ namespace NSSOrientation {
                 random.Next (10),
                 random.Next (10),
                 random.Next (10),
+                random.Next (10),
+                random.Next (10),
+                random.Next (10),
+                random.Next (10),
+                random.Next (10),
 
             };
-            for (int i = 0; i < 4; i++) {
-if ( numbers[i] >= 4)
+            for (int i = 0; i <= numbers.Count - 1; i++) {
+if (numbers[i] == i)
 {
- Console.WriteLine("List Contains " +  i);
+ Console.WriteLine("random number " + numbers[i] + " " +" is equal to index " + i);
 } else {
-Console.WriteLine("List does not  Contains " + i);
-}
-            }
-        }
+Console.WriteLine("random number " + numbers[i] + " " +" is NOT equal to index " + i);
 
-    }
-}
+            }
+        }}}}
